@@ -1,0 +1,132 @@
+#container1 {
+  /* padding: 10px 0px 10px 10px; */
+  max-height: 230px;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  min-width: 110px;
+  line-height: 110px;
+  text-align: center;
+}
+
+#card1 {
+  min-width: 130px;
+  height: 220px;
+  padding: 4px;
+  margin: 7px;
+  line-height: 120px;
+  text-align: center;
+  /* border : none; */
+}
+#card1:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+img {
+  /* margin-top: 0px; */
+  border-radius: 5px;
+  box-shadow: 10px 18px 19px -12px black;
+}
+
+input[type="text"],
+select {
+  width: 70%;
+  padding: 5px 10px;
+  margin: 55px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  font-size: 1.4rem;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  color: #3d3d3d;
+  background: #fff;
+  user-select: none;
+  border-radius: 6px;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border: 1px solid black;
+
+}
+input[type="text"],
+select :hover{
+  cursor: pointer;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1),
+    0px 0px 0px 3.5px rgba(206, 216, 236, 0.5);
+  outline: 0;
+}
+
+.button1 {
+  display: flexbox;
+  flex-direction: column;
+  margin: 8px;
+  align-items: center;
+  margin-left: 25px;
+  padding: 5px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  border-radius: 6px;
+  color: #3d3d3d;
+  background: #fff;
+  border: 1px solid black;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-size: 1.2rem;
+
+}
+
+.button1:hover {
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1),
+    0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+/* sweet alert */
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+#form-box{
+  display: contents;
+  font-family: arial;
+  font-size: 24px;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+  outline: dashed 1px black;
+}
+#form1{
+  width: 500px;
+  height: 150px;
+  background-color: white;
+  /* Center horizontally*/
+  margin: 0 auto;
+
+}
+#container3 {
+  position: relative;
+  margin: 18px 490px;
+  display: flexbox;
+}
+#card3 {
+  display: flexbox;
+  padding: 10 px 10 px;
+  display: flexbox;
+  margin: 10 px 2 px;
+}
+#container4 {
+  display: flex;
+}
+
+#img3 {
+  margin: 10px 10px;
+}
+#img3:hover{
+transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+
+}
